@@ -1,0 +1,23 @@
+{
+  "name": "web-server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "hbs": "^4.1.1",
+    "mysql": "^2.18.1",
+    "nodemon": "^2.0.4",
+    "postman-request": "^2.88.1-postman.24",
+    "request": "^2.88.2",
+    "validator": "^13.1.1",
+    "yargs": "^16.0.0"
+  },
+  "devDependencies": {},
+  "description": ""
+}
