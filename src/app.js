@@ -4,8 +4,8 @@ const hbs = require('hbs')
 const geocode = require('./utilis/geocode')
 const forecast = require('./utilis/forecast')
 
-// console.log(__dirname)
-// console.log(path.join(__dirname, '../public'))
+console.log(__dirname)
+console.log(path.join(__dirname, '../public'))
 const app = express()
 //IMPORTANT
 const publicDirectory = path.join(__dirname, '../public')
@@ -34,6 +34,20 @@ app.get('/help',(req,res)=>{
         name: 'YASH'
     })
 })
+///////////////////////////////
+// var conn= mysql.createConnection({
+//     host : 'localhost',
+//     user: 'root',
+//     password : '',
+//     database: s
+// })
+
+
+
+
+
+
+////////////////////////////////
 
 // app.get('',(req,res) =>{
 //     res.send('<h1>Weather</h1>')
